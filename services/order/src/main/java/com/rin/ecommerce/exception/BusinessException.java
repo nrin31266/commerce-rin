@@ -1,2 +1,10 @@
-package com.rin.ecommerce.exception;public class BusinessException {
+package com.rin.ecommerce.exception;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+
+@EqualsAndHashCode(callSuper=true)
+@Data
+public class BusinessException extends RuntimeException {
+    private final String msg;
 }

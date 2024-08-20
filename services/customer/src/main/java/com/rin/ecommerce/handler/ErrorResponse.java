@@ -1,2 +1,8 @@
-package com.rin.ecommerce.handler;public class ErrorResponse {
+package com.rin.ecommerce.handler;
+
+import java.util.Map;
+
+public record ErrorResponse(
+        Map<String, String> errors
+) {
 }

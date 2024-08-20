@@ -1,2 +1,4 @@
-package com.rin.ecommerce.customer;public interface CustomerClient {
+package com.rin.ecommerce.customer;
+
+public interface CustomerClient {
 }
