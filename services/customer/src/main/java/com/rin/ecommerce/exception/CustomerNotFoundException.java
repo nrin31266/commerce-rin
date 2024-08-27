@@ -3,8 +3,6 @@ package com.rin.ecommerce.exception;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 
 @EqualsAndHashCode(callSuper = true)

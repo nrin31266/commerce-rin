@@ -1,4 +1,4 @@
-package com.rin.ecommerce.payment;
+package com.rin.ecommerce.kafka.payment;
 
 public enum PaymentMethod {
     PAYPAL,

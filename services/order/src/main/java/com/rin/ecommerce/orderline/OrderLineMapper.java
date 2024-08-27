@@ -7,4 +7,6 @@ import org.mapstruct.Mapping;
 public interface OrderLineMapper {
     @Mapping(target = "order", ignore = true)
     OrderLine toOrderLine(OrderLineRequest request);
+
+    OrderLineResponse toOrderLineResponse(OrderLine orderLine);
 }

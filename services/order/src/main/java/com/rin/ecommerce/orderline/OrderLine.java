@@ -19,5 +19,5 @@ public class OrderLine {
     @JoinColumn(name = "order-id")
     Order order;
     Integer productId;
-    Double quantity;
+    double quantity;
 }

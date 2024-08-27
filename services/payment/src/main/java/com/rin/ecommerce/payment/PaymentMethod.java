@@ -1,4 +1,4 @@
-package com.rin.ecommerce.order;
+package com.rin.ecommerce.payment;
 
 public enum PaymentMethod {
     PAYPAL,
